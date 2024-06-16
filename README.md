@@ -6,8 +6,8 @@ download hive.sh in /home/user
 
 Run : 
 
-sh quiqui.sh
-then
+sh hive.sh
+
 journalctl -u ceremonyclient.service -f --no-hostname -o cat
 
 when node is sync, you should see a line like this :
