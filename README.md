@@ -2,11 +2,11 @@
 HiveOs beta installation Script.
 Requirements : Latest HiveOS Beta on Ubutun 22.04
 
-download hive.sh in /home/user
+download quiqui.sh in /home/user
 
 Run : 
 
-sh hive.sh
+sh quiqui.sh
 
 journalctl -u ceremonyclient.service -f --no-hostname -o cat
 
