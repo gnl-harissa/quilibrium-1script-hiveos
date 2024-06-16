@@ -3,12 +3,12 @@ cd /home/user
 sudo apt-get install git;
 
 #clone repos
-git clone https://source.quilibrium.com/quilibrium/ceremonyclient.git
+git clone https://github.com/quilibriumnetwork/ceremonyclient.git
 
 cd ceremonyclient/node
 
 #switch to release-cdn branch
-git checkout release-cdn
+git checkout release
 
 # first start to generate .config folder
 ./release_autorun.sh & 
