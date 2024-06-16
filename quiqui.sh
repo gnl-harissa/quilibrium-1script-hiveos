@@ -24,7 +24,7 @@ sed -i 's#listenGrpcMultiaddr: ""#listenGrpcMultiaddr: "/ip4/127.0.0.1/tcp/8337"
 
 #enable rest
 
-sed -i 's#listenRESTMultiaddr: ""#listenRESTMultiaddr: "/ip4/127.0.0.1/tcp/8337"#g' /home/user/ceremonyclient/node/.config/config.yml
+sed -i 's#listenRESTMultiaddr: ""#listenRESTMultiaddr: "/ip4/127.0.0.1/tcp/8338"#g' /home/user/ceremonyclient/node/.config/config.yml
 
 # create service
 sudo echo "[Unit]
