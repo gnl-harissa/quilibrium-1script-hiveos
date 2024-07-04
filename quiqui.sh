@@ -16,7 +16,7 @@ git checkout release
 # let it run first time to create the folder, we give him 5s then we kill the node
 sleep 15s 
 
-pkill node-1.4.1 
+pkill node-1.4 
 
 #enable gRpc
 
